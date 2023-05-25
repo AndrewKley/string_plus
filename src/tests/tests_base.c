@@ -42,7 +42,6 @@ START_TEST(strncpy_1) {
   char *s, *s1;
   s = strncpy(b1, str_1_2, n1);
   s1 = strpls_strncpy(b11, str_1_2, n1);
-  // ck_assert_str_eq(strncpy(b1, str_1_2, n1), strpls_strncpy(b11, str_1_2, n1));
   ck_assert_str_eq(s, s1);
 }
 END_TEST
