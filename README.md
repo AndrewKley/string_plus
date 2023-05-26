@@ -9,22 +9,21 @@
 2.  use an any functions and variables that exist in the library
 
     Examples:
+
+#### Sprintf function
 ```C
 char str1[100] = "";
 char *str2 = "Test %x Test";
 int val = 0x32;
 strpls_sprintf(str1, str2, val);
 ```
-Sprintf function
 
-
+#### Trim function
 ```C
 char *str1 = "    a     ";
 char *str2 = " ";
 char *str3 = (char *)strpls_trim(str1, str2);
 ```
-Trim function
-
 
 ## There're following functions and variables
 
