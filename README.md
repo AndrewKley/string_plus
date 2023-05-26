@@ -20,8 +20,8 @@ Sprintf function
 
 ```C
 char *str1 = "    a     ";
-  char *str2 = " ";
-  char *str3 = (char *)strpls_trim(str1, str2);
+char *str2 = " ";
+char *str3 = (char *)strpls_trim(str1, str2);
 ```
 Trim function
 
